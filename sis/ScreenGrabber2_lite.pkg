@@ -1,4 +1,3 @@
-;
 ; Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
 ; All rights reserved.
 ; This component and the accompanying materials are made available
@@ -15,7 +14,7 @@
 ;
 
 ; Language - standard language definitions
-&EN
+&EN, TU, FA, VI
 
 ; Standard SIS file header
 #{"ScreenGrabber2"},(0xdbee45c2),5,0,0,TYPE=SA
@@ -42,6 +41,7 @@
 "$(EPOCROOT)epoc32\data\z\resource\apps\ScreenGrabber2.rsc"-"!:\Resource\Apps\ScreenGrabber2.rsc"
 "$(EPOCROOT)epoc32\data\z\resource\apps\ScreenGrabber2.r14"-"!:\Resource\Apps\ScreenGrabber2.r14"
 "$(EPOCROOT)epoc32\data\z\resource\apps\ScreenGrabber2.r96"-"!:\Resource\Apps\ScreenGrabber2.r96"
+"$(EPOCROOT)epoc32\data\z\resource\apps\ScreenGrabber2.r50"-"!:\Resource\Apps\ScreenGrabber2.r50"
 "$(EPOCROOT)epoc32\data\z\private\10003a3f\apps\ScreenGrabber2_reg.rsc"-"!:\private\10003a3f\import\apps\ScreenGrabber2_reg.rsc"
 "..\data\about.html"-"!:\private\dbee45c2\about.html"
 "..\group\backup_registration.xml"-"!:\private\dbee45c2\backup_registration.xml"
