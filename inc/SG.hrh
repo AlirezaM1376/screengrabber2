@@ -30,6 +30,7 @@ enum TScreenGrabberCommandIds
     EScreenGrabberCmdChangeLanguageItem1,
     EScreenGrabberCmdChangeLanguageItem2,
     EScreenGrabberCmdChangeLanguageItem3,
+	EScreenGrabberCmdChangeLanguageItem4,
     EScreenGrabberCmdScreenResolution,
     EScreenGrabberCmdScreenResolutionItem1,
     EScreenGrabberCmdScreenResolutionItem2,
