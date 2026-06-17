@@ -38,7 +38,7 @@ rls_string STRING_r_sg_command7 "Çıkış"
 rls_string STRING_r_sg_command2_item1 "İngilizce"
 rls_string STRING_r_sg_command2_item2 "Türkçe"
 rls_string STRING_r_sg_command2_item3 "Vietnamca"
-
+rls_string STRING_r_sg_command2_item4 "فارسی"
 
 // used in settings menu
 rls_string STRING_r_sg_command8 "Değiştir"
