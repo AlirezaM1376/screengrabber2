@@ -132,6 +132,7 @@ void CScreenGrabberAppUi::HandleCommandL(TInt aCommand)
 	case EScreenGrabberCmdChangeLanguageItem1:
 	case EScreenGrabberCmdChangeLanguageItem2:
 	case EScreenGrabberCmdChangeLanguageItem3:
+	case EScreenGrabberCmdChangeLanguageItem4:
 	    ChangeLanguageL(aCommand);
 	    break;
         // a normal way to close an application
@@ -189,6 +190,9 @@ TInt CScreenGrabberAppUi::CurrentLanguageItemL()
 	case ELangVietnamese:
 	    item = EScreenGrabberCmdChangeLanguageItem3;
 	    break;
+	case ELangFarsi:
+	    item = EScreenGrabberCmdChangeLanguageItem4;
+	    break;
 	default: break;
     }
     return item;
@@ -209,6 +213,9 @@ void CScreenGrabberAppUi::ChangeLanguageL(TInt aCommand)
 	    break;
 	case EScreenGrabberCmdChangeLanguageItem3:
 	    lang = ELangVietnamese;
+	    break;
+	case EScreenGrabberCmdChangeLanguageItem4:
+	    lang = ELangFarsi;
 	    break;
     }
 
