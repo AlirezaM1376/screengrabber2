@@ -16,24 +16,21 @@
 ; Language - standard language definitions
 &EN, TU, FA, VI
 
-; Standard SIS file header
-#{"ScreenGrabber2"},(0xdbee45c2),5,0,0,TYPE=SA
+; Standard SIS file header (1 name for each language)
+#{"ScreenGrabber2", "ScreenGrabber2", "ScreenGrabber2", "ScreenGrabber2"}, (0xdbee45c2), 5,0,0, TYPE=SA
 
-;Supports Series 60 v 3.0
-[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+;Supported devices (1 dep name for each language)
+;S60v3 
+[0x101F7961], 0, 0, 0, {"Series60ProductID", "Series60ProductID", "Series60ProductID", "Series60ProductID"}
+;S60v5
+[0x1028315F], 0, 0, 0, {"Series60ProductID", "Series60ProductID", "Series60ProductID", "Series60ProductID"}
+;S^3
+[0x20022E6D], 0, 0, 0, {"Series60ProductID", "Series60ProductID", "Series60ProductID", "Series60ProductID"}
 
-;Supports S60 5th Edition
-[0x1028315F], 0, 0, 0, {"Series60ProductID"}
-
-;Supports Symbian^3
-[0x20022E6D], 0, 0, 0, {"Series60ProductID"}
-
-
+; Localised vendor names (1 vendor name for each language)
 ; Non-localised vendor name
+%{"Nokia Corporation, JigokuMaster", "Nokia Corporation, JigokuMaster", "Nokia Corporation, JigokuMaster", "Nokia Corporation, JigokuMaster"}
 :"Nokia Corporation, JigokuMaster"
-
-; Localised vendor names
-%{"Nokia Corporation, JigokuMaster"}
 
 ; normal stuff:
 "$(EPOCROOT)epoc32\release\gcce\urel\ScreenGrabber2.exe"-"!:\sys\bin\ScreenGrabber2.exe"
