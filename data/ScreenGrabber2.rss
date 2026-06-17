@@ -156,8 +156,9 @@ RESOURCE MENU_PANE r_screengrabber_language_submenu
     items=
     {
 	MENU_ITEM { command=EScreenGrabberCmdChangeLanguageItem1; txt=STRING_r_sg_command2_item1; flags=EEikMenuItemRadioStart | EEikMenuItemSymbolIndeterminate; },
-	MENU_ITEM { command=EScreenGrabberCmdChangeLanguageItem2; txt=STRING_r_sg_command2_item2; flags=EEikMenuItemRadioMiddle;},
-	MENU_ITEM { command=EScreenGrabberCmdChangeLanguageItem3; txt=STRING_r_sg_command2_item3; flags=EEikMenuItemRadioEnd; }
+	MENU_ITEM { command=EScreenGrabberCmdChangeLanguageItem2; txt=STRING_r_sg_command2_item2; flags=EEikMenuItemRadioMiddle; },
+	MENU_ITEM { command=EScreenGrabberCmdChangeLanguageItem3; txt=STRING_r_sg_command2_item3; flags=EEikMenuItemRadioMiddle; },
+	MENU_ITEM { command=EScreenGrabberCmdChangeLanguageItem4; txt=STRING_r_sg_command2_item4; flags=EEikMenuItemRadioEnd; }
     };
 }
 
