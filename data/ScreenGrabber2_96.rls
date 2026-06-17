@@ -37,6 +37,7 @@ rls_string STRING_r_sg_command7 "Thoát"
 rls_string STRING_r_sg_command2_item1 "Tiếng Anh"
 rls_string STRING_r_sg_command2_item2 "Tiếng Thổ Nhĩ Kì"
 rls_string STRING_r_sg_command2_item3 "Tiếng Việt"
+rls_string STRING_r_sg_command2_item4 "فارسی"
 
 // used in settings menu
 rls_string STRING_r_sg_command8 "Thay đổi"
