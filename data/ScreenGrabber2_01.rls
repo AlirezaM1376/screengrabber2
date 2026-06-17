@@ -37,6 +37,7 @@ rls_string STRING_r_sg_command7 "Exit"
 rls_string STRING_r_sg_command2_item1 "English"
 rls_string STRING_r_sg_command2_item2 "Turkish"
 rls_string STRING_r_sg_command2_item3 "Vietnamese"
+rls_string STRING_r_sg_command2_item4 "فارسی"
 
 // used in settings menu
 rls_string STRING_r_sg_command8 "Change"
