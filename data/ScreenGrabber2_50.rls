@@ -1,6 +1,6 @@
 /*
 ============================================================================
- Name		: ScreenGrabber2_01.rls
+ Name		: ScreenGrabber2_50.rls
 
  Author	  : JigokuMaster
  Copyright   : Your copyright notice
@@ -37,7 +37,7 @@ rls_string STRING_r_sg_command7 "خروج"
 rls_string STRING_r_sg_command2_item1 "English"
 rls_string STRING_r_sg_command2_item2 "Turkish"
 rls_string STRING_r_sg_command2_item3 "Vietnamese"
-rls_string STRING_r_sg_command2_item3 "Persian"
+rls_string STRING_r_sg_command2_item4 "Persian"
 
 // used in settings menu
 rls_string STRING_r_sg_command8 "تغییر"
@@ -72,7 +72,7 @@ rls_string STRING_r_sg_item7  "تاخیر (ms)"
 
 rls_string STRING_r_sg_item8  "فرمت ویدیو"
 
-rls_string STRING_r_sg_item9  "مسیر ذخیره سازی"
+rls_string STRING_r_sg_item9  "مسیر ذخیره فایل"
 
 // strings for settings sub items (Capture mode)
 
