@@ -1,0 +1,182 @@
+/*
+============================================================================
+ Name		: ScreenGrabber2_01.rls
+
+ Author	  : JigokuMaster
+ Copyright   : Your copyright notice
+ Description : This is a localisation file for ScreenGrabber2
+				A .rls file is the one and only place where the logical
+				strings to be localised are defined. 
+============================================================================
+*/
+
+CHARACTER_SET UTF8
+
+//  LOCALISATION STRINGS
+
+// Caption string for app.
+rls_string qtn_caption_string "SG2"
+
+
+// strings for menu commands 
+rls_string STRING_r_sg_command1 "انتقال به پس زمینه"
+
+rls_string STRING_r_sg_command2 "زبان"
+
+rls_string STRING_r_sg_command3 "ابعاد صفحه"
+
+rls_string STRING_r_sg_command4 "تصاویر ذخیره شده"
+
+rls_string STRING_r_sg_command5 "تنظیمات"
+
+rls_string STRING_r_sg_command6 "درباره"
+
+rls_string STRING_r_sg_command7 "خروج"
+
+// Language items
+rls_string STRING_r_sg_command2_item1 "English"
+rls_string STRING_r_sg_command2_item2 "Turkish"
+rls_string STRING_r_sg_command2_item3 "Vietnamese"
+rls_string STRING_r_sg_command2_item3 "Persian"
+
+// used in settings menu
+rls_string STRING_r_sg_command8 "تغییر"
+
+// used in savedshots window menu
+rls_string STRING_r_sg_command9 "حذف"
+rls_string STRING_r_sg_command10 "ارسال"
+
+
+// strings for settings cba
+
+rls_string STRING_r_sg_cba1 "منو"
+rls_string STRING_r_sg_cba2 "برگشت"
+
+// strings for settings
+
+rls_string qtn_settings_caption_string "تنظیمات"
+
+rls_string STRING_r_sg_item1 "حالت"
+
+rls_string STRING_r_sg_item2 "صفحه نمایش اصلی/فرعی"
+
+rls_string STRING_r_sg_item3  "دکمه اسکرینشات"
+
+rls_string STRING_r_sg_item4  "فرمت عکس"
+
+rls_string STRING_r_sg_item5  "نام فایل"
+
+rls_string STRING_r_sg_item6  "دکمه شروع/توقف"
+
+rls_string STRING_r_sg_item7  "تاخیر (ms)"
+
+rls_string STRING_r_sg_item8  "فرمت ویدیو"
+
+rls_string STRING_r_sg_item9  "مسیر ذخیره سازی"
+
+// strings for settings sub items (Capture mode)
+
+rls_string STRING_r_sg_arr1_item1  "تک عکس"
+
+rls_string STRING_r_sg_arr1_item2  "عکس متوالی"
+
+rls_string STRING_r_sg_arr1_item3  "ضبط صفحه"
+
+
+// strings for settings sub items (Screen device)
+
+rls_string STRING_r_sg_arr2_item1   "صفحه نمایش اصلی"
+
+rls_string STRING_r_sg_arr2_item2  "صفحه نمایش فرعی"
+
+
+// strings for settings sub items (Hotkeys)
+
+rls_string STRING_r_sg_arr3_item1   "دکمه سبز/تماس"
+
+rls_string STRING_r_sg_arr3_item2  "SHIFT+*"
+
+rls_string STRING_r_sg_arr3_item3  "HASH+*"
+
+rls_string STRING_r_sg_arr3_item4 "SHIFT+Menu"
+
+rls_string STRING_r_sg_arr3_item5 "Power key"
+
+rls_string STRING_r_sg_arr3_item6 "Side key"
+
+rls_string STRING_r_sg_arr3_item7 "Camera key #1"
+
+rls_string STRING_r_sg_arr3_item8 "Camera key #2"
+
+rls_string STRING_r_sg_arr3_item9 "POC"
+
+rls_string STRING_r_sg_arr3_item10 "تنظیم دستی"
+
+// strings for settings sub items (Image format)
+
+rls_string STRING_r_sg_arr4_item1   "PNG"
+
+rls_string STRING_r_sg_arr4_item2   "JPEG کیفیت بالا"
+
+rls_string STRING_r_sg_arr4_item3   "JPEG کیفیت پایین"
+
+rls_string STRING_r_sg_arr4_item4   "BMP"
+
+rls_string STRING_r_sg_arr4_item5   "GIF"
+
+rls_string STRING_r_sg_arr4_item6   "HQ GIF"
+
+rls_string STRING_r_sg_arr4_item7   "MBM"
+
+// strings for settings sub items (Video format)
+
+rls_string STRING_r_sg_arr5_item1   "Animated GIF"
+
+rls_string STRING_r_sg_arr5_item2   "HQ Animated GIF"
+
+rls_string STRING_r_sg_arr5_item3   "MP4"
+
+
+// strings for dialog (Custom key)
+
+rls_string STRING_r_dlg1_label  "یک دکمه را فشار دهید:" 
+
+// strings for dialog (About)
+
+rls_string STRING_r_dlg2_label  "درباره Scr.Grabber"
+
+// strings for (Save Path Selection Dialog)
+
+rls_string STRING_r_dlg3_label  "انتخاب مسیر:"
+
+// strings for (Save Progress Dialog)
+
+rls_string STRING_r_dlg4_prompt "ذخیره سازی"
+
+// strings for (Exit Query)
+
+rls_string STRING_r_dlg5_prompt "ایا ار توقف برنامه و خروج اطمینان دارید؟"
+
+
+// string for (Save Confirmation Query)
+
+rls_string STRING_r_dlg6_prompt1 "اسکرینشات دخیره شد"
+
+rls_string STRING_r_dlg6_prompt2 "%N اسکرینشات ذخیره شدند"
+
+rls_string STRING_r_dlg6_prompt3 "ویدیو دخیره شد"
+
+// strings for (restart query)
+
+rls_string STRING_r_dlg7_prompt "جهت اعمال تغییرات شروع مجدد برنامه لازم است. خارج میشوید؟"
+
+// strings for (Delete shot query)
+
+rls_string STRING_r_dlg8_prompt "حذف %U?"
+
+
+// usage text string 
+
+rls_string STRING_r_usage_msg "اگر اولین بار است از برنامه استفاده میکنید لطفا از قسمت تنظیمات حالت و دکمه مخصوص یا سایر تنظیمات را تعیین کنید. استفاده از فرمت  تصویری PNG برای اسکرینشات توصیه میشود. \nتصاویر دخیره شده هم از گالری و هم از مدیریت فایل قابل دسترسی هستند. \n\nشما میتوانید با استفاده از گزینه انتقال به پس زمینه این برنامه را در پس زمینه مخفی کنید و سپس با فشردن دکمه مخصوص، دریافت اسکرینشات یا ویدیو از صفحه را شروع کنید.\n"
+
+// End of File
